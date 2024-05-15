@@ -1,0 +1,12 @@
+1. Створіть схему pandemic у базі даних за допомогою SQL-команди.
+
+	CREATE SCHEMA pandemic
+
+
+2. Оберіть її як схему за замовчуванням за допомогою SQL-команди.
+
+	use pandemic
+
+
+3. Імпортуйте дані за допомогою Import wizard так, як ви вже робили це у темі 3.
+	select * from infectious_cases;
